@@ -1,0 +1,6 @@
+DELIMITER //
+CREATE PROCEDURE spProductReset()
+BEGIN
+    DELETE FROM Products;
+END //
+DELIMITER ;
